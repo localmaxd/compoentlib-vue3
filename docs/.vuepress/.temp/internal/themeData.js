@@ -1,4 +1,5 @@
 export const themeData = {
+  "logo": "/1.jpeg/",
   "navbar": [
     {
       "text": "github",
@@ -52,7 +53,6 @@ export const themeData = {
       "selectLanguageName": "English"
     }
   },
-  "logo": null,
   "darkMode": true,
   "repo": null,
   "selectLanguageText": "Languages",
