@@ -32,7 +32,7 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
 
-      - name: Build VuePress site
+      - name: Build VuePress site1
         run: yarn docs:build
 
       - name: Deploy to GitHub Pages
