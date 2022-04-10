@@ -33,7 +33,7 @@ jobs:
         run: yarn --frozen-lockfile
 
       - name: Build VuePress site
-        run: npm docs:build
+        run: yarn docs:build
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
