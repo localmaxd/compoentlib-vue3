@@ -1,4 +1,5 @@
-<template><div class="inputs-wrapper">
+<template><h2 id="输入框组件" tabindex="-1"><a class="header-anchor" href="#输入框组件" aria-hidden="true">#</a> 输入框组件</h2>
+<div class="inputs-wrapper">
 <input-index></input-index>
 </div>
 <div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>input-group<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>

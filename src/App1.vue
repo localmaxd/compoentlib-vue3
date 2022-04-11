@@ -53,19 +53,6 @@
     <!--      :magHeight="magHeight"-->
     <!--      :magPower="magPower"-->
     <!--    ></Magnifier>-->
-    <!--        //  "description": "组件库",-->
-    <!--        //  "main": "./dist/index.js",-->
-    <!--        //  "keywords": [-->
-    <!--        //    "vue3",-->
-    <!--        //    "compoents"-->
-    <!--        //  ],-->
-    <!--        //  "author": {-->
-    <!--        //    "name": "dcw"-->
-    <!--        //  },-->
-    <!--        //  "files": [-->
-    <!--        //    "dist",-->
-    <!--        //    "src/libs/appui"-->
-    <!--        //  ],-->
     <slider-com
       :autoplay="true"
       :duration="2000"

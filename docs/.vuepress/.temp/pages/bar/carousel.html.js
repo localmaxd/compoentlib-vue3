@@ -1,12 +1,35 @@
 export const data = {
   "key": "v-532f46b8",
   "path": "/bar/carousel.html",
-  "title": "轮播图组件",
+  "title": "",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [],
-  "git": {},
+  "headers": [
+    {
+      "level": 2,
+      "title": "轮播图组件",
+      "slug": "轮播图组件",
+      "children": [
+        {
+          "level": 3,
+          "title": "Attributes",
+          "slug": "attributes",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "git": {
+    "updatedTime": 1649515999000,
+    "contributors": [
+      {
+        "name": "localmaxd",
+        "email": "1483573670@qq.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "bar/carousel.md"
 }
 

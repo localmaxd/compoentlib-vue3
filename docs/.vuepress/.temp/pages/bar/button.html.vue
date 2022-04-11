@@ -1,4 +1,5 @@
-<template><div class="button-session">
+<template><h2 id="按钮组件" tabindex="-1"><a class="header-anchor" href="#按钮组件" aria-hidden="true">#</a> 按钮组件</h2>
+<div class="button-session">
     <div class="group-wrapper">
       <div class="button-wrapper"><my-button type="primary">确定</my-button></div>
       <div class="button-wrapper"> <my-button type="dashed">确定</my-button></div>

@@ -1,5 +1,5 @@
 export const siteData = {
-  "base": "/",
+  "base": "/compoentlib-vue31/",
   "lang": "zh-CN",
   "title": "Vue3 组件库",
   "description": "vue3 + compontent",

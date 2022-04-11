@@ -26,30 +26,35 @@
     <!--      v-model:value="password"-->
     <!--      name="name"-->
     <!--    ></input-com>-->
-    <!--    <my-selector placeholder="请选择" :show-arrow="true" arrow-area="top">-->
-    <!--      <menu-item><a href="">1 st list</a></menu-item>-->
-    <!--      <menu-item><a href="">2 st list</a></menu-item>-->
-    <!--      <menu-item><a href="">3 st list</a></menu-item>-->
-    <!--    </my-selector>-->
-<!--        <menu-index>-->
-<!--          <menuItem>option 1</menuItem>-->
-<!--          <SubMenu title="option2" SubMode="">-->
-<!--            <menu-item-group title="item1">-->
-<!--              <menuItem>option 1-1</menuItem>-->
-<!--              <menuItem>option 1-2</menuItem>-->
-<!--              <menuItem>option 1-3</menuItem>-->
-<!--            </menu-item-group>-->
-<!--            <sub-menu title="option 1-4" SubMode="hor">-->
-<!--              <menu-item-group title="item2">-->
-<!--                <menuItem>option 2-1</menuItem>-->
-<!--                <menuItem>option 2-2</menuItem>-->
-<!--                <menuItem>option 2-3</menuItem>-->
-<!--              </menu-item-group>-->
-<!--            </sub-menu>-->
-<!--          </SubMenu>-->
-<!--          <menuItem>option 3</menuItem>-->
-<!--          <menuItem>option 4</menuItem>-->
-<!--        </menu-index>-->
+    <!--        <my-selector placeholder="请选择" :show-arrow="true" arrow-area="top">-->
+    <!--          <menu-item><a href="">1 st list</a></menu-item>-->
+    <!--          <menu-item><a href="">2 st list</a></menu-item>-->
+    <!--          <menu-item><a href="">3 st list</a></menu-item>-->
+    <!--        </my-selector>-->
+    <!--        <menu-index>-->
+    <!--          <menuItem>option 1</menuItem>-->
+    <!--          <SubMenu title="option2" SubMode="">-->
+    <!--            <menu-item-group title="item1">-->
+    <!--              <menuItem>option 1-1</menuItem>-->
+    <!--              <menuItem>option 1-2</menuItem>-->
+    <!--              <menuItem>option 1-3</menuItem>-->
+    <!--            </menu-item-group>-->
+    <!--            <sub-menu title="option 1-4" SubMode="hor">-->
+    <!--              <menu-item-group title="item2">-->
+    <!--                <menuItem>option 2-1</menuItem>-->
+    <!--                <menuItem>option 2-2</menuItem>-->
+    <!--                <menuItem>option 2-3</menuItem>-->
+    <!--              </menu-item-group>-->
+    <!--            </sub-menu>-->
+    <!--          </SubMenu>-->
+    <!--          <menuItem>option 3</menuItem>-->
+    <!--          <menuItem>option 4</menuItem>-->
+    <!--        </menu-index>-->
+    <!--    "serve": "vue-cli-service serve",-->
+    <!--    "build": "vue-cli-service build",-->
+    <!--    "test:unit": "vue-cli-service test:unit",-->
+    <!--    "lint": "vue-cli-service lint",-->
+    <!--    "build:js": "webpack &#45;&#45;config ./webpack.config.js",-->
   </div>
 </template>
 

@@ -19,6 +19,8 @@ export const pagesComponents = {
   "v-2cf1c298": defineAsyncComponent(() => import(/* webpackChunkName: "v-2cf1c298" */"/Users/dcw/vue_project/vite_test/compoentlib-vue3/docs/.vuepress/.temp/pages/bar/navbar.html.vue")),
   // path: /bar/search.html
   "v-5056141c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5056141c" */"/Users/dcw/vue_project/vite_test/compoentlib-vue3/docs/.vuepress/.temp/pages/bar/search.html.vue")),
+  // path: /bar/treeMenus.html
+  "v-466f48d8": defineAsyncComponent(() => import(/* webpackChunkName: "v-466f48d8" */"/Users/dcw/vue_project/vite_test/compoentlib-vue3/docs/.vuepress/.temp/pages/bar/treeMenus.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/Users/dcw/vue_project/vite_test/compoentlib-vue3/docs/.vuepress/.temp/pages/404.html.vue")),
 }

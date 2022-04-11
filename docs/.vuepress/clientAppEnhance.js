@@ -8,7 +8,6 @@ import Magnifier from "./compoents/Magnifier/Magnifier.vue";
 import magnifierIndex from "./compoents/ComIndex/magnifierIndex.vue";
 import navbarIndex from "./compoents/ComIndex/navbarIndex.vue";
 import "./fonts/iconfont.css";
-
 import Menu from "./compoents/Menu/index.vue";
 import MenuItem from "./compoents/Menu/MenuItem.vue";
 import menuItemGroup from "./compoents/Menu/MenuItemGroup.vue";

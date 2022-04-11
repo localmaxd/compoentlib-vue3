@@ -1,12 +1,35 @@
 export const data = {
   "key": "v-2cf1c298",
   "path": "/bar/navbar.html",
-  "title": "导航条组件",
+  "title": "",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [],
-  "git": {},
+  "headers": [
+    {
+      "level": 2,
+      "title": "导航条组件",
+      "slug": "导航条组件",
+      "children": [
+        {
+          "level": 3,
+          "title": "Attributes",
+          "slug": "attributes",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "git": {
+    "updatedTime": 1649515999000,
+    "contributors": [
+      {
+        "name": "localmaxd",
+        "email": "1483573670@qq.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "bar/navbar.md"
 }
 
