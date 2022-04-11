@@ -1,6 +1,6 @@
 module.exports = {
   // 站点配置
-  base:"/compoentlib-vue31/",
+  base:"/compoentlib-vue3/",
   lang: "zh-CN",
   title: "Vue3 组件库",
   description: "vue3 + compontent",
@@ -8,7 +8,7 @@ module.exports = {
   // 主题和它的配置
   theme: "@vuepress/theme-default",
   themeConfig: {
-    logo:"/1.jpeg/",
+    logo:"/1.jpeg",
     navbar: [
       // NavbarItem
       {
