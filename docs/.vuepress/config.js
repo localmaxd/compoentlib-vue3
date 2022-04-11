@@ -13,12 +13,12 @@ module.exports = {
       // NavbarItem
       {
         text: "github",
-        link: "/foo/",
+        link: "https://github.com/localmaxd/compoentlib-vue31",
       },
       // NavbarGroup
       {
         text: "npm",
-        link: "/foo/"
+        link: "https:https://www.npmjs.com/package/compoent-vue3-uiapp"
       },
       // 字符串 - 页面文件路径
     ],
@@ -55,7 +55,7 @@ module.exports = {
       },
       {
         text:"树形组件",
-        link: "/bar/treeMenu",
+        link: "/bar/treeMenus",
       },
       {
         text:"下拉菜单组件",

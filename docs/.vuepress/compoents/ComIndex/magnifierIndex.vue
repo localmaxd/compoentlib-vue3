@@ -28,8 +28,8 @@ name: "magnifierIndex",
         imgAlt: "sense",
         imgWidth: 300,
         imgHeight: 300,
-        magWidth: 50,
-        magHeight: 50,
+        magWidth: 150,
+        magHeight: 150,
         //放大倍数
         magPower: 1.5,
       });
@@ -42,6 +42,7 @@ name: "magnifierIndex",
 
 <style scoped>
 .magnifier-wrapper{
-  width: 100%;
+  display: block;
+  height: 400px;
 }
 </style>

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1648870917999') format('truetype');
+  src: url('iconfont.ttf?t=1649582476593') format('truetype');
 }
 
 .iconfont {
@@ -9,6 +9,14 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sousuo:before {
+  content: "\e693";
+}
+
+.icon-down:before {
+  content: "\e7eb";
 }
 
 .icon-yanjing_xianshi_o:before {

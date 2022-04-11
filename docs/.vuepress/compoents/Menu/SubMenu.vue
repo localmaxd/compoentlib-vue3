@@ -51,7 +51,7 @@ export default {
 
 <style lang="scss" scoped>
 .subMenu {
-  width: 162px;
+  width: 100%;
   z-index: 200;
   position: relative;
   cursor: pointer;

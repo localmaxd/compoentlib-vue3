@@ -3,11 +3,11 @@ export const themeData = {
   "navbar": [
     {
       "text": "github",
-      "link": "/foo/"
+      "link": "https://github.com/localmaxd/compoentlib-vue31"
     },
     {
       "text": "npm",
-      "link": "/foo/"
+      "link": "https:https://www.npmjs.com/package/compoent-vue3-uiapp"
     }
   ],
   "sidebar": [
@@ -41,7 +41,7 @@ export const themeData = {
     },
     {
       "text": "树形组件",
-      "link": "/bar/treeMenu"
+      "link": "/bar/treeMenus"
     },
     {
       "text": "下拉菜单组件",

@@ -18,7 +18,7 @@
 
 <script>
 import { onMounted, reactive, ref, toRefs } from "vue";
-import focus from "@/libs/appui/compoents/Selector/focus";
+import focus from "./focus";
 export default {
   name: "mySelector",
   directives: {
@@ -38,10 +38,10 @@ export default {
       default: "bottom",
     },
   },
-  setup() {
+  setup(props) {
     const state = reactive({
       showHover: false,
-      menuTop: false,
+      menuTop: false
     });
     const selectInfo = ref(null);
     onMounted(() => {
@@ -53,6 +53,7 @@ export default {
       } else {
         state.menuTop = false;
       }
+      console.log(selectEl);
     });
     const handleClick = () => {
       state.showHover = !state.showHover;
@@ -111,7 +112,7 @@ export default {
     .triangle-down {
       width: 0;
       height: 0;
-      margin-left: 15%;
+      margin-left: 45%;
       margin-top: 5px;
       border-top: 10px solid #e4e7ed;
       border-left: 7px solid transparent;
@@ -120,7 +121,7 @@ export default {
     }
   }
   .menuTop {
-    top: -81px;
+    top: -141px;
   }
 }
 </style>

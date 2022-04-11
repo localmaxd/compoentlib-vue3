@@ -14,7 +14,7 @@ export default {
   name: "inputIndex",
   setup() {
     const username = ref("");
-    const password = ref("");
+    const password = ref("123");
     return {
       username,
       password,

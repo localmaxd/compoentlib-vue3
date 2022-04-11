@@ -42,7 +42,6 @@
   </div>
 
 
-
 <div class="group3">
   <menu-index>
     <menuItem>option 1</menuItem>
@@ -74,11 +73,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.navGroup1{
+  width: 181px;
+}
+
 .group2{
+  width: 181px;
   margin-top: 150px;
   display: inline-block;
 }
 .group3 {
+  width: 181px;
   display: inline-block;
 }
 </style>

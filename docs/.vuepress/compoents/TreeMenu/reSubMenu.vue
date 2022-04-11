@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import subMenu from "@/libs/appui/compoents/TreeMenu/subMenu";
-import menuItem from "@/libs/appui/compoents/TreeMenu/item";
+import subMenu from "./subMenu.vue";
+import menuItem from "./item.vue";
 export default {
   name: "reSubMenu",
   props: {

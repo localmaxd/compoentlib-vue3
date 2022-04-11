@@ -1,3 +1,4 @@
+## 输入框组件
 <div class="inputs-wrapper">
 <input-index></input-index>
 </div>

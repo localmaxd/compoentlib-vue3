@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import MenuItem from "./item";
-import menuData from "@/libs/appui/compoents/TreeMenu/data/menulist";
-import ReSubMenu from "@/libs/appui/compoents/TreeMenu/reSubMenu";
+import MenuItem from "./item.vue";
+import menuData from "./data/menulist.js";
+import ReSubMenu from "./reSubMenu.vue";
 export default {
   name: "TreeMenu",
   components: {

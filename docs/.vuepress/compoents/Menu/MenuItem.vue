@@ -12,7 +12,7 @@ export default {
 
 <style lang="scss" scoped>
 .menu-item {
-  width: 162px;
+  width: 100%;
   height: 40px;
   text-align: center;
   cursor: pointer;

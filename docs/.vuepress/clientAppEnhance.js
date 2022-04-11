@@ -15,6 +15,12 @@ import menuItemGroup from "./compoents/Menu/MenuItemGroup.vue";
 import subMenu from "./compoents/Menu/SubMenu.vue";
 import Modal from "./compoents/Modal/index.vue";
 import modalIndex from "./compoents/ComIndex/modalIndex.vue";
+import selector from "./compoents/Selector/index.vue";
+import search from "./compoents/Search/index.vue";
+import TreeMenu from "./compoents/TreeMenu/index.vue";
+import treeIndex from "./compoents/ComIndex/treeIndex.vue";
+import searchIndex from "./compoents/ComIndex/searchIndex.vue";
+
 export default function(Vue) {
   Vue.app.component(buttons.name,buttons)
   Vue.app.component(input.name,input)
@@ -31,6 +37,9 @@ export default function(Vue) {
   Vue.app.component(navbarIndex.name, navbarIndex);
   Vue.app.component(Modal.name, Modal);
   Vue.app.component(modalIndex.name, modalIndex);
-
-
+  Vue.app.component(selector.name, selector);
+  Vue.app.component(TreeMenu.name, TreeMenu);
+  Vue.app.component(treeIndex.name, treeIndex);
+  Vue.app.component(search.name, search);
+  Vue.app.component(searchIndex.name,searchIndex);
 }

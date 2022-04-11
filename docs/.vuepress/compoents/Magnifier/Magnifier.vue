@@ -9,30 +9,33 @@
       height: imgHeight + 'px',
     }"
   >
-    <a
+    <div
       class="mag-wrap"
       :href="link"
       target="blank?'_blank':''"
       :style="{
-      width: magWidth + 'px',
-      height: magHeight + 'px',
-    }"
+        width: magWidth + 'px',
+        height: magHeight + 'px',
+     }"
     >
-      <img
-        class="mag-imgs"
-        :src="imgUrl"
+      <div
+        class="mag-img"
         alt="imgAlt"
         :style="{
-          width: imgWidth + 'px',
-          height: imgHeight + 'px',
-        }"
-      />
-    </a>
-    <a class="img-lk">
-      <img class="static-img" :src="imgUrl" :alt="imgAlt" />
-    </a>
+          width:imgWidth+'px',
+          height:imgHeight+'px'
+        }">
+      <img :src="imgUrl" :style="{
+        width:imgWidth+'px',
+        height:imgHeight+'px'
+      }">
+    </div>
     <input type="text" :value="magPower" />
   </div>
+    <a class="img-lk">
+      <img class="static-img" width="300" height="300" :src="imgUrl" :alt="imgAlt" />
+    </a>
+  </div>>
 </template>
 
 <script>
@@ -77,19 +80,23 @@ export default {
 
 <style lang="scss" scoped>
 .img-wrap {
-  position: relative;
+  position: absolute;
   border: 1px solid #ddd;
   //四边5px的阴影
   box-shadow: 0 0 5px #999;
-  .static-img {
-    width: 100%;
+  .img-lk{
+    .static-img {
+      position: absolute;
+      top:0;
+      width: 100%;
+    }
   }
   input {
     display: none;
   }
   .mag-wrap {
     display: none;
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
     z-index: 2;
@@ -100,6 +107,8 @@ export default {
     .mag-img {
       //放大的图片相对于mag-wrapper定位
       position: absolute;
+      left: 0;
+      top: 0;
       z-index: 999;
     }
     &.show {

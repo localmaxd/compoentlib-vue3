@@ -4,7 +4,6 @@ export default {
   //获取当前绑定的节点 magnifier
   mounted(el) {
     const oImgWrap = el,
-      // 放大镜区域
       oMagWrap = oImgWrap.querySelector(".mag-wrap"),
       oMagImg = oMagWrap.querySelector(".mag-img"),
       oMagPowerInput = oImgWrap.querySelector("input"),
@@ -32,8 +31,8 @@ export default {
         function (e) {
           //移动到区域内的时候将放大镜显示出来
           oMagWrap.className += " show";
-          oMagWrap.style =
-            oMagWrap.style.cssText + "transform: scale(" + magPower + ");";
+          oMagImg.style =
+            oMagImg.style.cssText + "transform: scale(" + magPower + ");";
           showMag(getXy(e).x, getXy(e).y);
           document.addEventListener("mousemove", handleMouseMove, null);
         },
@@ -43,7 +42,6 @@ export default {
     }
 
     function handleMouseMove(e) {
-      console.log(magWidth, magHeight);
       const { x, y, mouseX, mouseY } = getXy(e);
       showMag(x, y, mouseX, mouseY);
     }

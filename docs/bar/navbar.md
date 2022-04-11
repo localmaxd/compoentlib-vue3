@@ -1,6 +1,5 @@
-# 导航条组件
+## 导航条组件
 <navbarIndex></navbarIndex>
-
 
 ```html
 <menu-index mode="vertical">
@@ -22,3 +21,12 @@
     <menuItem>option 3</menuItem>
 </menu-index>
 ```
+
+
+### Attributes
+|  属性  |  说明   | 类型  | 默认值 |
+|:--:|:-----:| :----:| :----:|
+| mode |  菜单排列 | String |  vertical  |
+| subMode |  高度  | String |  hor  |
+| title |  标题  | String |  ""  |
+
