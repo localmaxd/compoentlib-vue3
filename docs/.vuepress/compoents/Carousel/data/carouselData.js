@@ -9,6 +9,6 @@ export default [
     ImgUrl: "https://img0.baidu.com/it/u=3879724579,2384271901&fm=253&fmt=auto&app=120&f=JPEG?w=1200&h=675",
   },
   {
-    ImgUrl:"/https://img0.baidu.com/it/u=985192759,2265250910&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=333",
-  }
+    ImgUrl:"https://img1.baidu.com/it/u=724179003,4096104503&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500",
+  },
 ];

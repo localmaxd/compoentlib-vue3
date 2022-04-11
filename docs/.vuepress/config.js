@@ -15,10 +15,9 @@ module.exports = {
         text: "github",
         link: "https://github.com/localmaxd/compoentlib-vue31",
       },
-      // NavbarGroup
       {
         text: "npm",
-        link: "https:https://www.npmjs.com/package/compoent-vue3-uiapp"
+        link: "https://npmjs.com/package/compoent-vue3-uiapp"
       },
       // 字符串 - 页面文件路径
     ],
