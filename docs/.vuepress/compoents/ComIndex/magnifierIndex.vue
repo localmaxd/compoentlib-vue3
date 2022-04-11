@@ -40,7 +40,7 @@ name: "magnifierIndex",
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .magnifier-wrapper{
   display: block;
   height: 400px;

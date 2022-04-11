@@ -50,7 +50,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .button-wrapper{
   width: 200px;
 }
