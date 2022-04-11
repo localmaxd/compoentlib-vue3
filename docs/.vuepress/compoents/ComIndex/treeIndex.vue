@@ -11,6 +11,6 @@ export default {
 
 <style lang="scss" scoped>
 .tree{
-  width: 150px;
+  width:150px;
 }
 </style>
