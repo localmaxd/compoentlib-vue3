@@ -9,8 +9,8 @@ import { createLights } from "./components/light.js";
 
 import { createRenderer } from "./systems/renderer.js";
 import { Resizer } from "./systems/Resizer.js";
-/**loop */
-import { Loop } from "./systems/Loop.js";
+/**loop1 */
+import { Loop } from "./systems/loop.js";
 
 let camera, renderer, scene, loop;
 
