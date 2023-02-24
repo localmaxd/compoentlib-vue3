@@ -1,14 +1,14 @@
 export default [
   {
-    ImgUrl: "https://img0.baidu.com/it/u=4152745790,1630191381&fm=253&fmt=auto&app=138&f=JPEG?w=282&h=500",
+    ImgUrl: "/compoentlib-vue3/img/1.jpeg",
   },
   {
-    ImgUrl: "https://img2.baidu.com/it/u=3896573322,1245897602&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500",
+    ImgUrl: "/compoentlib-vue3/img/2.jpeg",
   },
   {
-    ImgUrl: "https://img0.baidu.com/it/u=3879724579,2384271901&fm=253&fmt=auto&app=120&f=JPEG?w=1200&h=675",
+    ImgUrl: "/compoentlib-vue3/img/3.jpeg",
   },
   {
-    ImgUrl:"https://img1.baidu.com/it/u=724179003,4096104503&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500",
+    ImgUrl: "/compoentlib-vue3/img/4.jpeg",
   },
 ];

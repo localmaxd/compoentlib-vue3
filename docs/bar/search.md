@@ -1,16 +1,18 @@
-## 搜索组件
+## 下拉组件
+
 <searchIndex></searchIndex>
 
 <div class=search-wrapper></div>
 
 ```html
-  <search-com :data="searchData"></search-com>
+<down-com :data="searchData"></down-com>
 ```
 
 ### Attributes
-|  属性  |  说明   | 类型  | 默认值 |
-|:--:|:-----:| :----:| :----:|
-| data |  数据 | List |  ""  |
+
+| 属性 | 说明 | 类型 | 默认值 |
+| :--: | :--: | :--: | :----: |
+| data | 数据 | List |   ""   |
 
 <style>
 .search-wrapper{

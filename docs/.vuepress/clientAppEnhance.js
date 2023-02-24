@@ -19,16 +19,17 @@ import search from "./compoents/Search/index.vue";
 import TreeMenu from "./compoents/TreeMenu/index.vue";
 import treeIndex from "./compoents/ComIndex/treeIndex.vue";
 import searchIndex from "./compoents/ComIndex/searchIndex.vue";
+import threeIndex from "./compoents/ThreeGuild/index.vue";
 
-export default function(Vue) {
-  Vue.app.component(buttons.name,buttons)
-  Vue.app.component(input.name,input)
-  Vue.app.component(buttonIndex.name,buttonIndex)
-  Vue.app.component(inputIndex.name,inputIndex)
-  Vue.app.component(carousel.name,carousel)
-  Vue.app.component(carouselIndex.name,carouselIndex)
-  Vue.app.component(Magnifier.name,Magnifier)
-  Vue.app.component(magnifierIndex.name,magnifierIndex)
+export default function (Vue) {
+  Vue.app.component(buttons.name, buttons);
+  Vue.app.component(input.name, input);
+  Vue.app.component(buttonIndex.name, buttonIndex);
+  Vue.app.component(inputIndex.name, inputIndex);
+  Vue.app.component(carousel.name, carousel);
+  Vue.app.component(carouselIndex.name, carouselIndex);
+  Vue.app.component(Magnifier.name, Magnifier);
+  Vue.app.component(magnifierIndex.name, magnifierIndex);
   Vue.app.component(Menu.name, Menu);
   Vue.app.component(MenuItem.name, MenuItem);
   Vue.app.component(menuItemGroup.name, menuItemGroup);
@@ -40,5 +41,6 @@ export default function(Vue) {
   Vue.app.component(TreeMenu.name, TreeMenu);
   Vue.app.component(treeIndex.name, treeIndex);
   Vue.app.component(search.name, search);
-  Vue.app.component(searchIndex.name,searchIndex);
+  Vue.app.component(searchIndex.name, searchIndex);
+  Vue.app.component(threeIndex.name, threeIndex);
 }

@@ -2,7 +2,7 @@
   <div class="carousel-wrapper">
     <slider-com
       :autoplay="true"
-      :duration="2000"
+      :duration="1000"
       :initial="1"
       :hasDot="true"
       :hasDirector="true"
@@ -20,13 +20,13 @@ export default {
     const urlObject = carouselData;
     return {
       urlObject,
-    }
-  }
+    };
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-.carousel-wrapper{
+.carousel-wrapper {
   width: 500px;
   height: 300px;
 }

@@ -1,30 +1,33 @@
-##  放大镜组件
+## 放大镜组件
+
 <magnifierIndex></magnifierIndex>
 
 ```html
 <Magnifier
-      link="https://localmaxd.github.io/compoentlib-vue31/"
-      blank="true"
-      imgUrl="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F110603%2F52-11060319503629.jpg&refer=http%3A%2F%2Fimg.taopic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1650180660&t=629159c989220f44ff99c389daa25d75","
-      imgAlt="sense"
-      imgWidth=500
-      imgHeight=500
-      magWidth="100
+  link="https://localmaxd.github.io/compoentlib-vue31/"
+  blank="true"
+  imgUrl="/component-31/1.jpeg"
+  imgAlt="sense"
+  imgWidth="500"
+  imgHeight="500"
+  magWidth="100
       magHeight=100
-      magPower="1.5
+      magPower="
+  1.5
 >
 </Magnifier>
 ```
 
 ### Attributes
-|  属性  |  说明   | 类型  | 默认值 |
-|:--:|:-----:| :----:| :----:|
-| link |  链接 | String{default/primary/dashed} |  primary  |
-| blank |  控制是否打开新页  | Boolean |  false  |
-| imgUrl |  图片链接  | String |  ""  |
-| imgAlt |  备选文本  | String |  "" |
-| imgWidth |  图片宽度  | Number |  300 |
-| imgHeight |  图片高度  | Number |  300 |
-| magWidth |  放大镜宽度  | Number |  100 |
-| magHeight |  放大镜高度  | Number |  100 |
-| magPower |  放大倍数  | Number |  1.5 |
+
+|   属性    |       说明       |              类型              | 默认值  |
+| :-------: | :--------------: | :----------------------------: | :-----: |
+|   link    |       链接       | String{default/primary/dashed} | primary |
+|   blank   | 控制是否打开新页 |            Boolean             |  false  |
+|  imgUrl   |     图片链接     |             String             |   ""    |
+|  imgAlt   |     备选文本     |             String             |   ""    |
+| imgWidth  |     图片宽度     |             Number             |   300   |
+| imgHeight |     图片高度     |             Number             |   300   |
+| magWidth  |    放大镜宽度    |             Number             |   100   |
+| magHeight |    放大镜高度    |             Number             |   100   |
+| magPower  |     放大倍数     |             Number             |   1.5   |

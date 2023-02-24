@@ -1,18 +1,19 @@
 <template><h2 id="放大镜组件" tabindex="-1"><a class="header-anchor" href="#放大镜组件" aria-hidden="true">#</a> 放大镜组件</h2>
 <magnifierIndex></magnifierIndex>
 <div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Magnifier</span>
-      <span class="token attr-name">link</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://localmaxd.github.io/compoentlib-vue31/<span class="token punctuation">"</span></span>
-      <span class="token attr-name">blank</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span>
-      <span class="token attr-name">imgUrl</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F110603%2F52-11060319503629.jpg&amp;refer=http%3A%2F%2Fimg.taopic.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=auto?sec=1650180660&amp;t=629159c989220f44ff99c389daa25d75<span class="token punctuation">"</span></span><span class="token attr-name">,"</span>
-      <span class="token attr-name">imgAlt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>sense<span class="token punctuation">"</span></span>
-      <span class="token attr-name">imgWidth</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>500</span>
-      <span class="token attr-name">imgHeight</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>500</span>
-      <span class="token attr-name">magWidth</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>100
+  <span class="token attr-name">link</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://localmaxd.github.io/compoentlib-vue31/<span class="token punctuation">"</span></span>
+  <span class="token attr-name">blank</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span>
+  <span class="token attr-name">imgUrl</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/component-31/1.jpeg<span class="token punctuation">"</span></span>
+  <span class="token attr-name">imgAlt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>sense<span class="token punctuation">"</span></span>
+  <span class="token attr-name">imgWidth</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>500<span class="token punctuation">"</span></span>
+  <span class="token attr-name">imgHeight</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>500<span class="token punctuation">"</span></span>
+  <span class="token attr-name">magWidth</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>100
       magHeight=100
-      magPower=<span class="token punctuation">"</span></span><span class="token attr-name">1.5</span>
+      magPower=<span class="token punctuation">"</span></span>
+  <span class="token attr-name">1.5</span>
 <span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Magnifier</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h3 id="attributes" tabindex="-1"><a class="header-anchor" href="#attributes" aria-hidden="true">#</a> Attributes</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h3 id="attributes" tabindex="-1"><a class="header-anchor" href="#attributes" aria-hidden="true">#</a> Attributes</h3>
 <table>
 <thead>
 <tr>

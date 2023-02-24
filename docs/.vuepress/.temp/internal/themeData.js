@@ -1,5 +1,5 @@
 export const themeData = {
-  "logo": "/1.jpeg/",
+  "logo": "/1.jpeg",
   "navbar": [
     {
       "text": "github",
@@ -7,7 +7,7 @@ export const themeData = {
     },
     {
       "text": "npm",
-      "link": "https:https://www.npmjs.com/package/compoent-vue3-uiapp"
+      "link": "https://npmjs.com/package/compoent-vue3-uiapp"
     }
   ],
   "sidebar": [
@@ -36,7 +36,7 @@ export const themeData = {
       "link": "/bar/modal"
     },
     {
-      "text": "搜索组件",
+      "text": "下拉组件",
       "link": "/bar/search"
     },
     {
@@ -44,8 +44,8 @@ export const themeData = {
       "link": "/bar/treeMenus"
     },
     {
-      "text": "下拉菜单组件",
-      "link": "/bar/downMenu"
+      "text": "3d组件",
+      "link": "/bar/three"
     }
   ],
   "locales": {

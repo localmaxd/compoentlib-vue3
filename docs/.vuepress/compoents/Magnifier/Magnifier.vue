@@ -16,26 +16,37 @@
       :style="{
         width: magWidth + 'px',
         height: magHeight + 'px',
-     }"
+      }"
     >
-      <div
+      <a
         class="mag-img"
         alt="imgAlt"
+        :href="link"
         :style="{
-          width:imgWidth+'px',
-          height:imgHeight+'px'
-        }">
-      <img :src="imgUrl" :style="{
-        width:imgWidth+'px',
-        height:imgHeight+'px'
-      }">
+          width: imgWidth + 'px',
+          height: imgHeight + 'px',
+        }"
+      >
+        <img
+          :src="imgUrl"
+          :style="{ width: imgWidth + 'px', height: imgHeight + 'px' }"
+        />
+      </a>
+      <input type="text" :value="magPower" />
     </div>
-    <input type="text" :value="magPower" />
-  </div>
+
     <a class="img-lk">
-      <img class="static-img" width="300" height="300" :src="imgUrl" :alt="imgAlt" />
+      <img
+        class="static-img"
+        :src="imgUrl"
+        :alt="imgAlt"
+        :style="{
+          width: imgWidth + 'px',
+          height: imgHeight + 'px',
+        }"
+      />
     </a>
-  </div>>
+  </div>
 </template>
 
 <script>
@@ -84,10 +95,10 @@ export default {
   border: 1px solid #ddd;
   //四边5px的阴影
   box-shadow: 0 0 5px #999;
-  .img-lk{
+  .img-lk {
     .static-img {
       position: absolute;
-      top:0;
+      top: 0;
       width: 100%;
     }
   }
@@ -95,8 +106,8 @@ export default {
     display: none;
   }
   .mag-wrap {
-    display: none;
-    position:absolute;
+    display: block;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
@@ -110,6 +121,7 @@ export default {
       left: 0;
       top: 0;
       z-index: 999;
+      // transform: scale(1);
     }
     &.show {
       display: block;
