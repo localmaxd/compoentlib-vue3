@@ -1,5 +1,6 @@
 import { Clock } from "three";
 
+/**123 */
 class Loop {
   constructor(camera, scene, renderer) {
     this.camera = camera;
