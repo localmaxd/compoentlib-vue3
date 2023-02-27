@@ -1,7 +1,12 @@
 <template>
   <div class="carousel" @mouseenter="mouseEnter" @mouseleave="mouseLeave">
     <div class="inner">
-      <card-item v-for="(item, index) of urlObject" :key="index">
+      <card-item
+        v-for="(item, index) of urlObject"
+        :key="index"
+        :selfIndex="index"
+        :currentIndex="currentIndex"
+      >
         <img :src="`${item.ImgUrl}`" alt="" />
       </card-item>
       <card-dot

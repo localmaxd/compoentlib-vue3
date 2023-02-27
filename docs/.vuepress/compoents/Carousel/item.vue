@@ -1,13 +1,14 @@
 <template>
   <transition>
-    <div v-picSize class="card-item" v-if="selfIndex === currentIndex">
+    <div v-picSize class="card-item" v-if="currentIndex == selfIndex">
       <slot></slot>
     </div>
   </transition>
 </template>
 
+<!-- v-if="selfIndex === currentIndex" -->
 <script>
-import { getCurrentInstance, reactive, toRefs } from "vue";
+import { reactive, toRefs } from "vue";
 import { watch } from "vue";
 import picSize from "./carousel";
 export default {
@@ -15,17 +16,28 @@ export default {
   directives: {
     picSize,
   },
-  setup() {
-    const instance = getCurrentInstance();
-    // console.log(instance);
+  props: {
+    selfIndex: {
+      type: Number,
+      default: 0,
+    },
+    currentIndex: {
+      type: Number,
+      default: 0,
+    },
+  },
+  setup(props, ctx) {
+    const { selfIndex, currentIndex } = props;
+    console.log(selfIndex, currentIndex);
+    // console.log(instance.appContext.config.globalProperties);
     const state = reactive({
-      selfIndex: instance.vnode.key,
-      currentIndex: instance.parent.ctx.currentIndex,
+      selfIndex: selfIndex,
+      currentIndex: currentIndex,
     });
 
     watch(
       () => {
-        return instance.parent.ctx.currentIndex;
+        return currentIndex;
       },
       (value) => {
         state.currentIndex = value;

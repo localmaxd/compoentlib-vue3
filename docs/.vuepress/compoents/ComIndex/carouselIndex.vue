@@ -1,7 +1,7 @@
 <template>
   <div class="carousel-wrapper">
     <slider-com
-      :autoplay="false"
+      :autoplay="true"
       :duration="1000"
       :initial="0"
       :hasDot="true"
