@@ -1,9 +1,9 @@
 <template>
   <div class="carousel-wrapper">
     <slider-com
-      :autoplay="true"
+      :autoplay="false"
       :duration="1000"
-      :initial="1"
+      :initial="0"
       :hasDot="true"
       :hasDirector="true"
       :urlObject="urlObject"
