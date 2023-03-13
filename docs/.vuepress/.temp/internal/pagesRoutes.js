@@ -8,6 +8,7 @@ const routeItems = [
   ["v-fa316860","/bar/magnifier.html",{"title":""},["/bar/magnifier","/bar/magnifier.md"]],
   ["v-7952d101","/bar/modal.html",{"title":""},["/bar/modal","/bar/modal.md"]],
   ["v-2cf1c298","/bar/navbar.html",{"title":""},["/bar/navbar","/bar/navbar.md"]],
+  ["v-22f04c53","/bar/polish.html",{"title":""},["/bar/polish","/bar/polish.md"]],
   ["v-5056141c","/bar/search.html",{"title":""},["/bar/search","/bar/search.md"]],
   ["v-e12556a0","/bar/three.html",{"title":""},["/bar/three","/bar/three.md"]],
   ["v-466f48d8","/bar/treeMenus.html",{"title":""},["/bar/treeMenus","/bar/treeMenus.md"]],

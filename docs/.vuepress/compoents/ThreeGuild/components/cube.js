@@ -1,4 +1,4 @@
-import { BoxGeometry, Mesh, MeshStandardMaterial } from "three";
+import { BoxGeometry, Mesh, MeshStandardMaterial, MathUtils } from "three";
 /**
  * 创建Mesh 组件
  */
@@ -13,11 +13,12 @@ function createCube() {
   // create a Mesh containing the geometry and material
   const cube = new Mesh(geometry, material);
   cube.rotation.set(-0.5, -0.1, 0.8);
+  const radiansPerSecond = MathUtils.degToRad(30);
   //添加tick方法
-  cube.tick = () => {
-    cube.rotation.z += 0.01;
-    cube.rotation.x += 0.01;
-    cube.rotation.y += 0.01;
+  cube.tick = (delta) => {
+    cube.rotation.z += delta * radiansPerSecond;
+    cube.rotation.x += delta * radiansPerSecond;
+    cube.rotation.y += delta * radiansPerSecond;
   };
   //   cube.scale.set(0.5, 1, 2);
 

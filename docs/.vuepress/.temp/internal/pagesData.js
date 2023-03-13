@@ -13,6 +13,8 @@ export const pagesData = {
   "v-7952d101": () => import(/* webpackChunkName: "v-7952d101" */"/Users/dcw/vue_project/vite_test/compoentlib-vue3/docs/.vuepress/.temp/pages/bar/modal.html.js").then(({ data }) => data),
   // path: /bar/navbar.html
   "v-2cf1c298": () => import(/* webpackChunkName: "v-2cf1c298" */"/Users/dcw/vue_project/vite_test/compoentlib-vue3/docs/.vuepress/.temp/pages/bar/navbar.html.js").then(({ data }) => data),
+  // path: /bar/polish.html
+  "v-22f04c53": () => import(/* webpackChunkName: "v-22f04c53" */"/Users/dcw/vue_project/vite_test/compoentlib-vue3/docs/.vuepress/.temp/pages/bar/polish.html.js").then(({ data }) => data),
   // path: /bar/search.html
   "v-5056141c": () => import(/* webpackChunkName: "v-5056141c" */"/Users/dcw/vue_project/vite_test/compoentlib-vue3/docs/.vuepress/.temp/pages/bar/search.html.js").then(({ data }) => data),
   // path: /bar/three.html

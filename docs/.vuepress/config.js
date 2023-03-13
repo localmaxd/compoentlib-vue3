@@ -60,6 +60,10 @@ module.exports = {
         text: "3d组件",
         link: "/bar/three",
       },
+      {
+        text: "润色组件",
+        link: "/bar/polish",
+      },
     ],
   },
 };

@@ -20,6 +20,7 @@ import TreeMenu from "./compoents/TreeMenu/index.vue";
 import treeIndex from "./compoents/ComIndex/treeIndex.vue";
 import searchIndex from "./compoents/ComIndex/searchIndex.vue";
 import threeIndex from "./compoents/ThreeGuild/index.vue";
+import Polish from "./compoents/Polish/index.vue";
 
 export default function (Vue) {
   Vue.app.component(buttons.name, buttons);
@@ -43,4 +44,5 @@ export default function (Vue) {
   Vue.app.component(search.name, search);
   Vue.app.component(searchIndex.name, searchIndex);
   Vue.app.component(threeIndex.name, threeIndex);
+  Vue.app.component(Polish.name, Polish);
 }
