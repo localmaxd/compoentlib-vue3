@@ -15,8 +15,10 @@ function decode(encode) {
   });
 }
 
+const r = await decode(newStr);
+
 const configuration = new Configuration({
-  apiKey: await decode(newStr),
+  apiKey: r,
 });
 
 export const opneai = new OpenAIApi(configuration);
