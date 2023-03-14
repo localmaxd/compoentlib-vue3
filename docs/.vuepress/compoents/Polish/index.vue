@@ -105,13 +105,17 @@ export default {
             }
             state.data = resStr;
             state.isLoading = false;
+            const hasFocus = document.hasFocus();
             if (
+              hasFocus &&
               navigator &&
               navigator.clipboard &&
               navigator.clipboard.writeText
             ) {
               state.hint = "润色完成，已经复制到剪贴板，请直接粘贴";
-              return navigator.clipboard.writeText(temp);
+              return navigator.clipboard
+                .writeText(temp)
+                .catch((e) => console.error(e));
             } else {
               state.hint = "浏览器不支持剪贴板";
               return Promise.reject("不支持剪贴板");
