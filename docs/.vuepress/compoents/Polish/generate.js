@@ -5,23 +5,22 @@ function secret(encode) {
 }
 const newStr = "tl.E5yxtJPvNOIu8vdp{FRUU4CmclGKce{8EjIry7kyLJmbVptV";
 
-function decode(encode) {
-  return new Promise((resolve) => {
-    let res = "";
-    for (let i = 0; i < encode.length; i++) {
-      res += String.fromCharCode(encode.charCodeAt(i) - 1);
-    }
-    resolve(res);
+export async function createOpenAI() {
+  function decode(encode) {
+    return new Promise((resolve) => {
+      let res = "";
+      for (let i = 0; i < encode.length; i++) {
+        res += String.fromCharCode(encode.charCodeAt(i) - 1);
+      }
+      resolve(res);
+    });
+  }
+  const r = await decode(newStr);
+  const configuration = new Configuration({
+    apiKey: r,
   });
+  return new OpenAIApi(configuration);
 }
-
-const r = await decode(newStr);
-
-const configuration = new Configuration({
-  apiKey: r,
-});
-
-export const opneai = new OpenAIApi(configuration);
 
 // const completion = await opneai.createCompletion({
 //     model:'text-davinci-003',

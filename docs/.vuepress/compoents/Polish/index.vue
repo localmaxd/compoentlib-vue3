@@ -1,6 +1,6 @@
 <script>
 import { ref, onMounted, reactive, toRefs } from "vue";
-import { opneai } from "./generate.js";
+import { createOpenAI } from "./generate.js";
 export default {
   name: "Polish",
   setup() {
@@ -73,6 +73,7 @@ export default {
 
         if (inputText.length > 10) {
           state.hint = "润色中,稍等!";
+          const opneai = await createOpenAI();
           try {
             const completion = await opneai.createChatCompletion({
               model: "gpt-3.5-turbo",
