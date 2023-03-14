@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.38">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Vue3 组件库</title><meta name="description" content="vue3 + compontent">
+    <link rel="modulepreload" href="/compoentlib-vue3/assets/app.61745c91.js"><link rel="modulepreload" href="/compoentlib-vue3/assets/404.html.93146c89.js"><link rel="modulepreload" href="/compoentlib-vue3/assets/404.html.3d0fde39.js">
+    <link rel="stylesheet" href="/compoentlib-vue3/assets/style.0113bf53.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/compoentlib-vue3/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/compoentlib-vue3/assets/app.61745c91.js" defer></script>
+  </body>
+</html>
