@@ -3,12 +3,19 @@ import { Configuration, OpenAIApi } from "openai";
 function secret(encode) {
   return new Buffer.from(encode, "base64").toString();
 }
-const newStr = secret(
-  "c2stRDR4d3NJT3VNTkh0N3Vjb3pFUVRUM0JsYmtGSmJkejdEaUhxeDZqeEtJbGFVb3NV"
-);
+const newStr =
+  "c2stRDR4d3NJT3VNTkh0N3Vjb3pFUVRUM0JsYmtGSmJkejdEaUhxeDZqeEtJbGFVb3NV";
+
+function decode(encode) {
+  if (typeof atob == undefined) {
+    return secret(encode);
+  } else {
+    return atob(encode);
+  }
+}
 
 const configuration = new Configuration({
-  apiKey: newStr,
+  apiKey: decode(newStr),
 });
 
 export const opneai = new OpenAIApi(configuration);
