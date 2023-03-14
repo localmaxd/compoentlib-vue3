@@ -1,8 +1,14 @@
 import { Configuration, OpenAIApi } from "openai";
+
+function secret(encode) {
+  return new Buffer.from(encode, "base64").toString();
+}
+const newStr = secret(
+  "c2stRDR4d3NJT3VNTkh0N3Vjb3pFUVRUM0JsYmtGSmJkejdEaUhxeDZqeEtJbGFVb3NV"
+);
+
 const configuration = new Configuration({
-  apiKey: atob(
-    "c2stRDR4d3NJT3VNTkh0N3Vjb3pFUVRUM0JsYmtGSmJkejdEaUhxeDZqeEtJbGFVb3NV"
-  ),
+  apiKey: newStr,
 });
 
 export const opneai = new OpenAIApi(configuration);
