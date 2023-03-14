@@ -3,15 +3,14 @@ import { Configuration, OpenAIApi } from "openai";
 function secret(encode) {
   return new Buffer.from(encode, "base64").toString();
 }
-const newStr =
-  "c2stRDR4d3NJT3VNTkh0N3Vjb3pFUVRUM0JsYmtGSmJkejdEaUhxeDZqeEtJbGFVb3NV";
+const newStr = "tl.E5yxtJPvNOIu8vdp{FRUU4CmclGKce{8EjIry7kyLJmbVptV";
 
 function decode(encode) {
-  if (typeof atob == undefined) {
-    return secret(encode);
-  } else {
-    return atob(encode);
+  let res = "";
+  for (let i = 0; i < encode.length; i++) {
+    res += String.fromCharCode(encode.charCodeAt(i) - 1);
   }
+  return res;
 }
 
 const configuration = new Configuration({
